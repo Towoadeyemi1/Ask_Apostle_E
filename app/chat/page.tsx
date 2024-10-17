@@ -7,6 +7,10 @@ import Image from 'next/image'
 import { Button } from "@/components/ui/button"
 
 export default function Chat() {
+  function handleSaveChat(event: React.MouseEvent<HTMLButtonElement, MouseEvent>): void {
+    throw new Error('Function not implemented.')
+  }
+
   // ... (previous code remains unchanged)
 
   return (
@@ -16,7 +20,7 @@ export default function Chat() {
           <div className="flex items-center">
             <div className="w-10 h-10 rounded-full overflow-hidden mr-2">
               <Image
-                src="/apostle_e.jpg"
+                src="/apostle_emmanuel_adewusi.jpg"
                 alt="Apostle E"
                 width={40}
                 height={40}
